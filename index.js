@@ -104,7 +104,17 @@ const U = o => {
 			B(o, s)
 		}, [s]), [s, i]
 	},
-	P = [{
+	P = [{name: "\u76d8\u641c\u7c7b",
+			urls: [{
+				title: "\u5168\u7f51\u641c",
+				describtion: "\u8F93\u5165\u5173\u9523\u8BCD\u641C\u7D22",
+				url: "https://yunsou.xyz/s/$keyword$.html"
+			}, {
+				title: "\u7f51\u76d8\u8bba\u575b",
+				describtion: "\u8F93\u5165\u5173\u9523\u8BCD\u641C\u7D22",
+				url: "https://wpzy.cc/?q=$keyword$"
+			}]
+		}, {
 		name: "\u805A\u5408\u7C7B",
 		urls: [{
 			title: "\u767E\u5EA6",
@@ -266,18 +276,7 @@ const U = o => {
 			describtion: "\u5728\u5343\u5343\u97F3\u4E50\u5B98\u7F51\u641C\u7D22",
 			url: "  https://music.taihe.com/search?word=$keyword$"
 		}]
-	}, {
-		name: "\u76d8\u641c\u7c7b",
-			urls: [{
-				title: "\u5168\u7f51\u641c",
-				describtion: "\u5168\u7f51\u641c",
-				url: "https://yunsou.xyz/s/$keyword$.html"
-			}, {
-				title: "\u7f51\u76d8\u8bba\u575b",
-				describtion: "\u7f51\u76d8\u8bba\u575b",
-				url: "https://wpzy.cc/?q=$keyword$"
-			}]
-		}
+	}
 		//, {
 		//name: "\u81EA\u5B9A\u4E49",
 		//urls: [{
@@ -292,9 +291,9 @@ const U = o => {
 		//}
 	],
 	xe = {
-		title: "\u767E\u5EA6",
-		describtion: "\u767E\u5EA6\u4E00\u4E0B\uFF0C\u4F60\u5C31\u77E5\u9053",
-		url: "https://www.baidu.com/s?wd=$keyword$"
+				title: "\u5168\u7f51\u641c",
+				describtion: "\u8F93\u5165\u5173\u9523\u8BCD\u641C\u7D22",
+				url: "https://yunsou.xyz/s/$keyword$.html"
 	};
 const Te = o => {
 	const {

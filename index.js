@@ -267,15 +267,15 @@ const U = o => {
 			url: "  https://music.taihe.com/search?word=$keyword$"
 		}]
 	}, {
-		name: "\u7f16\u7a0b\u7c7b",
+		name: "\u76d8\u641c\u7c7b",
 			urls: [{
-				title: "Devv",
-				describtion: "search on devv",
-				url: "https://devv.ai/zh/search/$keyword$?lang=zh"
+				title: "\u5168\u7f51\u641c",
+				describtion: "\u5168\u7f51\u641c",
+				url: "https://yunsou.xyz/s/$keyword$.html"
 			}, {
-				title: "Phind",
-				describtion: "search on phind",
-				url: "https://www.phind.com/search?q=$keyword$"
+				title: "\u7f51\u76d8\u8bba\u575b",
+				describtion: "\u7f51\u76d8\u8bba\u575b",
+				url: "https://wpzy.cc/?q=$keyword$"
 			}]
 		}
 		//, {

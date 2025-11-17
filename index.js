@@ -1588,28 +1588,6 @@ const ct = (o, n, s, i) => {
 	},
 	dt = [//ת��http://www.kuquidc.com/convert/Unicode.php
 		{
-			id: "7li7li",
-			name: "7li7li",
-			link: "https://www.7li7li.cn",
-			logo: "icon/7li7li.png",
-			type: "outer",
-			width: 1024,
-			height: 768,
-			x: 150,
-			y: 60
-		},
-		{
-			id: "nextchat",
-			name: "7li-AI",
-			link: "https://link.7li7li.cn/chatgpt",
-			logo: "/icon/nextchat.png",
-			type: "inner",
-			width: 1024,
-			height: 768,
-			x: 200,
-			y: 70
-		},
-		{
 			id: "chatgpt",
 			name: "ChatGPT",
 			link: "https://openai.com",
